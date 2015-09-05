@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Hackathon_FrontendBlocker</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/copyleft/gpl.html">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sperrt das Frontend. Die Freigabe des Frontends geschieht &#xFC;ber das Deinstallieren dieser Erweiterung.</summary>
+    <description>Das Frontend wird durch die Installierung gesperrt, w&#xE4;hrend das Backend weiterhin offen bleibt.</description>
+    <notes>Hackathon - Verwaltung</notes>
+    <authors><author><name>Manfred Worm Sch&#xE4;fer</name><user>MaWoScha</user><email>manfredwormschaefer@gmail.com</email></author></authors>
+    <date>2015-09-05</date>
+    <time>10:29:27</time>
+    <contents><target name="mage"><dir name="."><file name="frontend_off.flag" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,81 @@
+<_>
+   <form_key></form_key>
+   <name>Hackathon_FrontendBlocker</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>Sperrt das Frontend. Die Freigabe des Frontends geschieht über das Deinstallieren dieser Erweiterung.</summary>
+   <description>Das Frontend wird durch die Installierung gesperrt, während das Backend weiterhin offen bleibt.</description>
+   <license>GPL</license>
+   <license_uri>http://www.gnu.org/copyleft/gpl.html</license_uri>
+   <version>1.0.0</version>
+   <stability>stable</stability>
+   <notes>Hackathon - Verwaltung</notes>
+   <authors>
+      <name>
+         <name>Manfred Worm Schäfer</name>
+      </name>
+      <user>
+         <user>MaWoScha</user>
+      </user>
+      <email>
+         <email>manfredwormschaefer@gmail.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>                                </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>mage</target>
+      </target>
+      <path>
+         <path/>
+         <path>frontend_off.flag</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore>.DS_Store</ignore>
+      </ignore>
+   </contents>
+</_>
